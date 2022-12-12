@@ -1,26 +1,38 @@
 
 """
-
-This function creates a text file holding the sum of groceries bought.
-
-Args:
- Use list() to extract the values from the dictionary into a list
- Use sum() to get sum of the values
- Returns:
- Creates a .txt file with sum of groceries
+sales.py
 """
 
-
-def grocery_cart(items):
-    with open("receipt.txt", "w") as file:
-        file.write(f"You bought {order}\n")
-        file.write(f"Your price list is {price_list}\n")
-        file.write(f"Your total cost is {Total_cost}\n")
-
-
 order = {"tomato": 30, "thyme": 4.40, "garlic": 7.5, "rice": 10, "onion": 4, "fish": 9.99}
-price_list = list(order.values())
-Total_cost = sum(price_list)
-grocery_cart(order)
+'''
+    Description: this function sums values from a dictionary called order
+    Argument: order.values()
+    Returns: sum(float)
+'''  
+def calculate_sum():
+    return sum(order.values())
+   
+'''
+    Description: this function creates a file and writes total of an order to it 
+    Argument: total_value
+    Returns: None
+'''    
+def generate_receipt():
+    with open("receipt.txt", "w") as file:
+        file.write(f"===WELCOME TO ONE-STOP-SHOP===\n")
+        file.write(f"  *******Your Receipt*******\n\n")
+        file.write(f"  Your total is ${total_value}\n")
+
+if __name__ == '__main__':
+
+    try:
+        total_value = calculate_sum()
+        print(f'Your total is: ${total_value}')
+
+    except:
+        print("We are expecting a valid dictionary as data type")
+
+    generate_receipt()
+
 
 

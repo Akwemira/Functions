@@ -1,11 +1,8 @@
-""" 
+'''
 This function checks for odd or even numbers.
-
-Args:
- use modulo operand (%). user input % 2.
- Returns:
- If the result is 0, user input is an even number. Else, an odd number.
-"""
+Args: (num % 2) == 0.
+Returns: none
+'''
 
 def CheckEvenOdd(num): 
   if (num % 2 == 0): 
