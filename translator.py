@@ -21,19 +21,21 @@ english_to_french_dict = {
     "mother" : "maman"
     }
 
-'''
-    Description: this function translates from english to french
-    Argument: dictionary key
-    Returns: dictionary value
-'''
+
 def translate_english_word(user_input_word):
-    return english_to_french_dict.get(user_input_word)
-'''
-    Description: this function translates from french to english
-    Argument: dictionary key
-    Returns: dictionary value
     '''
+    Description: this function translates a word from english to french
+    Parameter: user_input_word
+    Returns: english_to_french_dict.get(user_input_word)
+    '''
+    return english_to_french_dict.get(user_input_word)
+
 def translate_french_word(user_input_word):
+    '''
+    Description: this function translates a word from french to english
+    Parameter: user_input_word
+    Returns: french_to_english_dict.get(user_input_word)
+    '''
     return french_to_english_dict.get(user_input_word)
     
     

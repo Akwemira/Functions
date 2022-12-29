@@ -4,20 +4,22 @@ sales.py
 """
 
 order = {"tomato": 30, "thyme": 4.40, "garlic": 7.5, "rice": 10, "onion": 4, "fish": 9.99}
-'''
-    Description: this function sums values from a dictionary called order
-    Argument: order.values()
-    Returns: sum(float)
-'''  
+ 
 def calculate_sum():
+    '''
+    Description: this function sums values from a dictionary called order
+    Argument: None
+    Returns: sum(float)
+    ''' 
     return sum(order.values())
    
-'''
-    Description: this function creates a file and writes total of an order to it 
-    Argument: total_value
-    Returns: None
-'''    
+   
 def generate_receipt():
+    '''
+    Description: this function creates a file and writes total of an order to it 
+    Argument: None
+    Returns: None
+    ''' 
     with open("receipt.txt", "w") as file:
         file.write(f"===WELCOME TO ONE-STOP-SHOP===\n")
         file.write(f"  *******Your Receipt*******\n\n")

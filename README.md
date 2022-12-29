@@ -1,5 +1,5 @@
 # Functions
-This repository is dedicated to codes written as functions.\n
+This repository is dedicated to codes written as functions.
 alice.py creates a .txt file and copies the content of this file to another .txt file
 calculator.py carries out arithmetic operations
 multiply_even_numbers.py selects even numbers from a list of numbers and calculates their product

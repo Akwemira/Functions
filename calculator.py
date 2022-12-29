@@ -5,40 +5,45 @@ calculator.py
 
 
 
-'''
-This function adds two numbers
-Arguments: num1, num2
-Return: num1 + num2
-'''
+
 def add(a, b):
+    '''
+    This function adds two numbers
+    Arguments: num1, num2
+    Return: num1 + num2
+    '''
     return a + b
-'''
-This function calculates the remainder of two numbers
-Arguments: num1, num2
-Return: num1 - num2
-'''
+
 def subtract(a, b):
+    '''
+    This function calculates the remainder of two numbers
+    Arguments: num1, num2
+    Return: num1 - num2
+    '''
     return a - b 
-'''
-This function calculates the product of two numbers
-Arguments: num1, num2
-Return: num1 * num2
-'''
+
+
 def multiply(a, b):
+    '''This function calculates the product of two numbers
+    Arguments: num1, num2
+    Return: num1 * num2
+    '''
     return a * b
-'''
-This function calculates the quotient of two numbers
-Arguments: num1, num2
-Return: num1 / num2
-'''
+
 def divide(a, b):
+    '''
+    This function calculates the quotient of two numbers
+    Arguments: num1, num2
+    Return: num1 / num2
+    '''
     return a / b
-'''
-This function calculates the exponential of one number raised to another
-Arguments: num1, num2
-Return: num1 ** num2
-'''
+
 def exponential(a, b):
+    '''
+    This function calculates the exponential of one number raised to another
+    Arguments: num1, num2
+    Return: num1 ** num2
+    '''
     return a ** b
 
 

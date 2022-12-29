@@ -1,0 +1,5 @@
+Server Name,AMI ID,Instance ID,Instance Type
+server1,ami-00d8a762cb0c50254,i-002e5e40394ef12f5,t2.micro
+server2,ami-00d8a762cb0c50254,i-081ebc0676ce62783,t2.micro
+server3,ami-00d8a762cb0c50254,i-0cdaecd586df66a80,t2.micro
+server4,ami-00d8a762cb0c50254,i-0e29d8ba87cdd93e4,t2.micro
